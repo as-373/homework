@@ -54,8 +54,14 @@ function createCalendar(year,month) {
         calendarHtml += '<td class="is-disabled">' + num + '</td>'
         dayCount++
       }else{
-        calendarHtml += `<td class="calendar_td" data-date="${year}/${month}/${dayCount}">${dayCount}</td>`
-        dayCount++;
+        if(year == date.getFullYear() && month == date.getMonth() + 1 && dayCount == date.getDate()){
+          calendarHtml += `<td class="today_td" data-date="${year}/${month}/${dayCount}">${dayCount}</td>`
+          dayCount++;
+        }
+        else{
+          calendarHtml += `<td class="calendar_td" data-date="${year}/${month}/${dayCount}">${dayCount}</td>`
+          dayCount++;
+        }
       }
     }
     calendarHtml += '</tr>'

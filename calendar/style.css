@@ -17,7 +17,12 @@ td{
   padding: 5px;
   text-align: center;
 }
-
+.today_td{
+  border: 1px solid #ddd;
+  background-color: rgba(142, 218, 172, 0.618);
+  padding: 5px;
+  text-align: center;
+}
 td:first-child{
   color: red;
 }
