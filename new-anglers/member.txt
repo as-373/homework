@@ -6,3 +6,4 @@
 画像あり　　　mail               password
 釣り大好き　　turi-mail          password
 fisherman    fishermail         123456
+abc          abcmail            123456

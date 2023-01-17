@@ -7,12 +7,27 @@
     <title>ANGLERS</title>
     <link rel="shortcut icon" href="../img/title-img.png" type="image/x-icon">
     <link rel="stylesheet" href="../style.css"/>
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.js"
+      integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+      crossorigin="anonymous"></script>
+      <script src="main.js"></script>
 </head>
 <body>
-    <div id="head">
-        <img src="../img/title-img.png" alt="">
-        <h1>ANGLERS</h1>
-    </div>
+    <header id="header">
+      <div class="header-img">
+        <img src="../img/main.jpg" alt="">
+      </div>
+      <div class="header-p">
+        <p>
+          <br>
+          全国の釣り人と<br>
+          釣果を共有し、<br>
+          釣りを<br>
+          より楽しくするー。
+        </p>
+      </div>
+    </header>
 
     <main id="home">
       <div class="home-item">
@@ -43,5 +58,8 @@
         <img src="../img/home-img.png" alt="">
       </div>
     </main>
+    <footer id="footer">
+      <p>&copy;ANGLERS</p>
+    </footer>
 </body>
 </html>

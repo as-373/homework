@@ -190,6 +190,36 @@ form{
 	margin-top: 10px;
 }
 /*ホーム画面*/
+#header{
+	background-color: rgba(127, 182, 255, 0.178);
+	padding-bottom: 20px;
+}
+#header .header-p{
+	border: 1px solid rgba(127, 182, 255, 0.521);
+	background-color: rgba(127, 182, 255, 0.521);
+	padding: 50px;
+	width: 30%;
+	position: absolute;
+	writing-mode: vertical-rl;
+	bottom: 20%;
+	top: 10%;
+	text-align: center;
+	display: none;/*フェードインするために必要*/
+}
+#header .header-img{
+	text-align: right;
+}
+#header .header-p p{
+	font-size: 50px;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+}
+#header img{
+	width: 80%;
+	object-fit: cover;
+	position: relative;
+	
+}
 .home-head{
 	margin: 50px;
 	font-size: 38px;
@@ -257,8 +287,9 @@ form{
 /*footer*/
 #footer{
 	background-color: rgba(127, 182, 255, 0.521);
-	padding: 10px;
+	padding: 5px;
 }
 #footer p{
 	text-align: center;
+	font-size: 8px;
 }

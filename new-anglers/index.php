@@ -55,7 +55,6 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
     //画像のアップロード
     if($post_image['name'] !==''){
         $filename = date('YmdHis').'_'.$post_image['name'];
-        
         if(!move_uploaded_file($post_image['tmp_name'],'post_picture/'.$filename)){
           die('ファイルのアップロードに失敗しました');
         }
@@ -76,14 +75,6 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
     header('Location: index.php');
     exit();
   }
-
-  //フォームの再送信でデータが複数登録されるのを防ぐ 再送信されるのを防ぐ
-  //この二つのコードをif($_SERVER['REQUEST_METHOD'] === 'POST'){　の中に入れないとlocalhostの繰り返しエラーになる
-  //この2つのコードの置く位置により$_FILESの中身がNULLになってしまう場合がある
-  /*
-  header('Location: index.php');
-  exit();
-  */
 }
 
 ?>
@@ -97,7 +88,6 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
     <link rel="shortcut icon" href="img/title-img.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css"/>
 </head>
-
 <body>
 <div id="wrap">
     <div id="head">
