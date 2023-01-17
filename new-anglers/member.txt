@@ -1,0 +1,8 @@
+
+
+　　　　　会員情報
+名前　　　　　メール　　　　　　　パスワード
+　　　　　　　email 　　　　　　　password
+画像あり　　　mail               password
+釣り大好き　　turi-mail          password
+fisherman    fishermail         123456
