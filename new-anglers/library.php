@@ -6,7 +6,7 @@
 
   //dbへの接続
   function dbconnect(){
-    $db = new mysqli('localhost', 'root', '124789abt', 'new-anglers');
+    $db = new mysqli('localhost', '●●●', '●●●', '●●●');
     if(!$db){
       die($db->error);
     }
