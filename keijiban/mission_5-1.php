@@ -10,9 +10,9 @@
 
     
     //データベースへ接続
-    $dsn = 'mysql:dbname=tb240307db;host=localhost';
-    $user = 'tb-240307';
-    $password = 'KRZ9mS99fy';
+    $dsn = 'mysql:dbname=●●●;host=localhost';
+    $user = '●●●';
+    $password = '●●●';
     $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
  
  /*//テーブル削除
