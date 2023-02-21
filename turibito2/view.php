@@ -77,7 +77,7 @@ $db = dbconnect();
                 <!-- ここにGoogle Mapを表示する -->
                 <div id="map" class="map"></div>
                 <!-- APIキーを指定してjsファイルを読み込む -->
-                <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD4eTXfo-0rSp0BNua1K54EYMI3vplYrSQ&callback=initMap"></script>
+                <script async src="https://maps.googleapis.com/maps/api/js?key=●●●"></script>
 
                 <script type="text/javascript">
                 // Google Mapを表示する関数
